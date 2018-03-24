@@ -1,1 +1,8 @@
-ddddd
+import javax.swing.*;
+
+public class Creatie {
+
+    public class Butoane(int X,int Y) extends JButton{
+
+    }
+}
