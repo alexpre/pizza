@@ -2,7 +2,10 @@ import javax.swing.*;
 
 public class Creatie {
 
-    public class Butoane(int X,int Y) extends JButton{
+    public class Butoane(int X,int Y){
 
+       JButton btn = new JButton();
+       btn.setHorizontalAlignment(X);
+       btn.setVerticalAlignment(Y);
     }
 }
